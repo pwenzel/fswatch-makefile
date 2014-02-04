@@ -46,5 +46,5 @@ Optimize/minifiy Javascript and CSS files:
 ### More Resources
 
 * [Website Builds Using Make](http://nefariousdesigns.co.uk/website-builds-using-make.html)
-* [http://oxy.fi/2013/02/03/how-to-use-makefiles-in-your-web-projects/](http://oxy.fi/2013/02/03/how-to-use-makefiles-in-your-web-projects/)
+* [How to use Makefiles in your web projects](http://oxy.fi/2013/02/03/how-to-use-makefiles-in-your-web-projects/)
 * [Simple deployments made easy using rsync with a Makefile](http://blog.ianty.com/general-development/simple-deployments-made-easy-using-rsync-with-a-makefile/)
