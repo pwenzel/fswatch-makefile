@@ -1,8 +1,7 @@
-PHONY: css js version
+PHONY: css js 
 
 cssfiles = 'assets/css/normalize.css' 'assets/css/app.css'
 jsfiles = 'assets/js/jquery.js' 'assets/js/jquery.cookie.js' 'assets/js/app.js'
-timestamp = `$(date +%s)`
 
 css: $(cssfiles)
 	@echo Built all.css
@@ -24,9 +23,6 @@ optimize: css js version
 	@yuicompressor assets/all.css -o assets/all.css
 	@yuicompressor assets/all.js -o assets/all.js
 	@echo Optimized
-
-version:
-	@echo `date +%s` > version
 
 clean:
 	@rm -f assets/all.css assets/all.js version
